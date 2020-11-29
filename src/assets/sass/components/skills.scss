@@ -1,0 +1,15 @@
+.skill-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  height: 100%;
+  .icon-wrap{
+    font-size: $h1-size;
+    width: 25%;
+    svg, i{
+
+    }
+  }
+}

@@ -1,0 +1,68 @@
+/* 
+COLS
+*/
+.col-4{
+  max-width: 100%;
+}
+.col-3{
+  max-width: 75%;
+}
+.col-2{
+  max-width: 50%;
+}
+.col-1{
+  max-width: 25%;
+}
+.col{
+  max-width: 33.333%;
+}
+
+@include mobile-lg {
+  .col, .col-1, .col-2, .col-3{
+    max-width: 100%;
+  }
+}
+
+/*
+BG
+*/
+.fill-solid{
+  background-color: rgba($color-orange, 0.05);
+}
+.fill-gradient{
+  &.slide .slide-inner {
+    a{
+      text-decoration: none;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+    .links li a, p, ul, ol{
+      color: $color-white;
+    }
+    .links{
+      li{
+        a{
+          &:hover{
+            color: $color-white;
+          }
+        }
+      }
+    }
+    .caption{
+      h1, h2, h3, h4{
+        color: $color-white;
+        a{
+          color: $color-white;
+        }
+      }
+    }
+  }
+}
+.fill-gradient, .fill-gradient-text{
+  background-image: linear-gradient(45deg, $color-pink 0%, $color-orange 57%, $color-orange 100%);
+}
+.fill-gradient-text{
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

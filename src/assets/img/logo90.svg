@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logo icon 90</title>
+    <defs>
+        <linearGradient x1="3.33066907e-14%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#EE0979" offset="0%"></stop>
+            <stop stop-color="#FF6A00" offset="56.9118561%"></stop>
+            <stop stop-color="#FF6A00" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Menu" fill-rule="nonzero">
+            <g id="logo-icon-90">
+                <g>
+                    <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="0" width="90" height="90"></rect>
+                    <polygon id="V" stroke="#FFFFFF" fill="#FFFFFF" points="46.0953058 57.7252747 55.455192 34.6776438 59 34.6776438 59 33 50.197724 33 50.197724 34.6776438 53.5035562 34.6776438 45.3385491 54.7294821 36.8150782 34.6376999 36.2176387 33 31 33 31 34.6776438 34.544808 34.6776438 44.2233286 57.7252747"></polygon>
+                    <polygon id="Rectangle" stroke="#FFFFFF" fill="#FFFFFF" points="73 17 73 72.3846154 46.8064516 72.3846154 46.8064516 70.5980149 71.1935484 70.5980149 71.1935484 18.7866005 18.8064516 18.7866005 18.8064516 43.405397 17 43.405397 17 17"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

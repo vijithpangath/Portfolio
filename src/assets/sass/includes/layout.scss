@@ -1,0 +1,11 @@
+main.page-wrap{
+  display: flex;
+  header{
+    width: 90px;
+  }
+  section.content-slider{
+    width: calc(100vw - 90px);
+    margin-left: 0px;
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,79 @@
+/*------------------*
+# Headings
+*------------------*/
+
+/*
+ * Uniform spacing and color for headings
+*/
+
+html, body{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+}
+
+h1, h2, h3, h4, h5{
+  line-height: 1;
+  font-weight: normal;
+  margin: 0px;
+}
+
+h1{
+  font-size: $h1-size;
+  letter-spacing: 0;
+}
+
+h2{
+  font-size: $h2-size;
+  letter-spacing: 0;
+}
+
+h3{
+  font-size: $h3-size;
+}
+
+h4{
+  font-size: $h4-size;
+}
+
+h5{
+  font-size: $h5-size;
+}
+
+h6{
+  font-weight: 400;
+  font-family: $regular-font-family;
+  font-size: $h6-size;
+}
+
+ul, ol{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+p, ul, ol{
+  margin: 0px;
+  line-height: 1.4;
+  & + p, & + ul, & + ol{
+    margin-top: 12px;
+  }
+}
+
+.feather {
+  stroke: currentColor;
+  stroke-width: 1;
+  stroke-linecap: square;
+  stroke-linejoin: bevel;
+  fill: none;
+  transition: 0.3s all;
+  &[data-size="small"]{
+    height: 28px;
+    width: 28px;
+  }
+  &[data-size="large"]{
+    width: 32px;
+    height: 32px;
+  }
+}

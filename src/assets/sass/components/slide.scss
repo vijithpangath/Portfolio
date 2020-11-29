@@ -1,0 +1,56 @@
+.slide{
+  overflow: hidden;
+  .slide-inner{
+    margin: 50px 75px;
+    width: 100%;
+    height: calc(100% - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @include mobile-lg {
+      margin: 20px;
+    }
+    .links, p, ul, ol{
+      color: rgba($color-black, 0.5);
+    }
+    .links{
+      li{
+        a{
+          text-decoration: none;
+          color: rgba($color-black, 0.5);
+          &:hover{
+            color: $color-black;
+          }
+        }
+      }
+    }
+    .header{
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      .links{
+        margin-top: -5px;
+      }
+    }
+    .footer{
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      .links{
+        margin-bottom: -5px;
+      }
+    }
+    .left, .right{
+      max-width: 50%;
+    }
+    .left, .center, .right{
+      max-width: 360px;
+    }
+  }
+}
+
+.caption{
+  h1{
+    
+  }
+}

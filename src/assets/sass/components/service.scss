@@ -1,0 +1,21 @@
+.service-wrap{
+  padding: 75px;
+  max-width: 360px;
+  text-align: center;
+  margin: auto;
+  .img-wrap{
+    margin-bottom: 40px;
+    svg{
+      width: 100%;
+    }
+  }
+  .cnt-wrap{
+    // text-align: left;
+    h4{
+      margin: 20px 0px;
+    }
+    p{
+      
+    }
+  }
+}
